@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Homepage .NTUpic {
+    width: 500px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Extra details */
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: Times, Times New Roman, serif; /* Add this line */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(238, 195, 205);
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Homepage .NTUpic {
+    width: 300px;
+    border-radius: 50%; /* Add this line */
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Add everything below here */
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* More extra details */
+
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: Times, Times New Roman, serif;
+    color: lightslategray;
+   
+   
+    
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#Homepage .NTUpic {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#Homepage h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#Homepage {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('./2photo.jpeg');
+}
+
+#About {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('./5.jpeg');
+}
+
+#Gallery {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('./15.jpeg');
+}
+
+#Contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('./21.jpeg');
+}
+
+
+/* contact forum */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: pink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: lightblue;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /* end of contact forum */
+
+
+  /* Gallery */
+/* The grid: Four equal columns that floats next to each other */
+
+
